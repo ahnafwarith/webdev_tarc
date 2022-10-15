@@ -1,5 +1,5 @@
 /* Class of Web Dev Adv */
-let name = 'Zarif'
+let shortName = 'Zarif'
 const pi = 3.146
 // pi = 'jfdi'
 console.log(name, pi)
@@ -31,3 +31,4 @@ student['home'] = 'dhaka'
 console.log(student.home)
 
 /* Object Destructuring */
+const { name } = student
